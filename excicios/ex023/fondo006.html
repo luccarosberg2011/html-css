@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 3px solid rgb(255, 0, 0);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatris souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">homens</th>
+                <td>bruno mendoca</td>
+                <td>Intocaveis</td>
+                <td>amesia</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenco</td>
+                <td>Wall-E</td>
+                <td>oldboy</td>
+                <td>dota</td>
+            </tr>
+            <tr>
+                <td>rhodrigo papai</td>
+                <td>dota</td>
+                <td>dota</td>
+                <td>slardar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
